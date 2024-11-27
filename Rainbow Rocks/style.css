@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #8806df;
+}
+/* cabeçalho */
+header {
+    background: #333;
+    color: #a200ff;
+    padding: 1rem 0;
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 0.5rem;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: rgb(163, 20, 220);
+    cursor: pointer;
+}
+
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+
+
+header {
+    background-color: #8202a1;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #ddd;
+}
+nav ul {
+    list-style: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.banner {
+    background: url('logorocks.gif') no-repeat center;
+    background-size: cover;
+    padding: 400px 0;
+    text-align: center;
+    color: #ffffff;
+}
+section {
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.book-card{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0,3s ease, box-shadow 0,3s ease;
+}
+.book-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.book-card img {
+    width: 100%;
+    border-radius: 8px;
+}
